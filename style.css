@@ -1,0 +1,217 @@
+* {
+    font-family: 'Nunito', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    background-color: #faf6f6;
+}
+
+.only_mobile {
+    display: none;
+}
+
+nav {
+    background-color: #419EA6;
+    overflow: hidden;
+}
+
+
+.top {
+    color: white;
+    display: flex;
+    align-items: center;
+    height: 30px;
+    padding-top: 10px;
+    /* width: 700px; */
+    /* justify-content: space-between; */
+    font-size: large;
+}
+
+.location_text {
+    border: 1px solid white;
+    border-radius: 10px;
+    width: 75vw;
+    height: 25px;
+    text-align: center;
+    box-sizing: border-box;
+    font-size: large;
+}
+
+.location_icon {
+    width: 5vw;
+    text-align: center;
+}
+
+.notifications_icon,
+.cart_icon {
+    width: 7.5vw;
+    text-align: center;
+}
+
+.searchbar {
+    font-size: x-large;
+    position: sticky;
+    top: 0;
+    left: 0;
+    margin: 15px 0px 3px 15px;
+    width: 100vw;
+    padding-bottom: 10px;
+}
+
+.search_area {
+    width: 80vw;
+    padding: 10px;
+    /* border: 1px solid black; */
+    border-radius: 10px;
+    background-color: white;
+}
+
+.search_area input {
+    font-size: 18px;
+    height: 20px;
+    width: 70%;
+    border: none;
+    outline: none;
+}
+
+.search_icon {
+    width: 10%;
+    color: #419EA6;
+}
+
+.searchbar div {
+    display: inline-block;
+}
+
+.Voice_recognition {
+    width: 8vw;
+    text-align: center;
+    color: white;
+}
+
+.carosel {
+    margin: 10px 5px 10px 5px;
+    height: 200px;
+}
+
+.swiper-slide {
+    background-image: url(image-1.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+/* Icons */
+.icons {
+    /* margin: 0 10px 0; */
+    background-color: white;
+    text-align: center;
+    padding-top: 20px;
+    margin: 5px 2px 0px;
+    border: 2px solid #cff5f9;
+    border-radius: 5px;
+}
+
+.icons div {
+    display: inline-block;
+    width: 23vw;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #419EA6;
+}
+
+.icons div span {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    font-size: x-small;
+}
+
+.icons div {
+    font-size: x-large;
+}
+
+/* Service providers and  Service products */
+.service_products .head {
+    height: 35px;
+    background-color: #c8f7fb;
+    margin: 20px 7px 0px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #2d848c;
+}
+
+.service_products .sub_head {
+    margin: 10px 70px 10px;
+    display: flex;
+    height: 35px;
+    font-size: 1.3rem;
+    color: rgb(123, 122, 122);
+    font-weight: 600;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid black;
+}
+
+.service_products .companies_container {
+    display: flex;
+    overflow-x: scroll;
+}
+
+.service_products .companies_container::-webkit-scrollbar {
+    display: none;
+}
+
+.service_products .companies {
+    height: 160px;
+    margin: 5px;
+    background-color: white;
+    display: inline-block;
+    border-radius: 10px;
+    min-width: 100px;
+    max-width: 100px;
+}
+
+.service_products .image {
+    margin: 15px 10px;
+    /* width: 100%; */
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+    color: white;
+}
+
+.service_products .text {
+    text-align: center;
+}
+
+/* Services we provide */
+.service_products .providing_services {
+    margin-top: 20px;
+    height: 130px;
+    margin: 5px;
+    background-color: white;
+    display: inline-block;
+    min-width: 200px;
+    max-width: 200px;
+    background-image: url(consultancy.jpg);
+    background-position: center;
+    background-size: contain;
+}
+
+@media (min-width:530px) {
+    .content {
+        display: none;
+    }
+
+    .only_mobile {
+        display: block;
+    }
+}
